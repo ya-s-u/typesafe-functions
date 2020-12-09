@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add typesafe-node-firestore --save-dev
+
+PATH: 
+  /Users/yasu/.rbenv/shims:/Users/yasu/.rbenv/bin:/Users/yasu/.go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Users/yasu/Downloads/deis
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/yasu/develop/typesafe-functions/package.json: Unexpected token } in JSON at position 376
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "typesafe-functions",
+    "version": "1.0.0",
+    "description": "A library of typescript interfaces that extend existing firebase-functions classes, adding type safety and a better autocomplete experience.",
+    "main": "index.js",
+    "repository": "https://github.com/ya-s-u/typesafe-functions.git",
+    "author": "Yasuaki Goto <yasu1003@gmail.com>",
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,26 @@
+{
+  "name": "typesafe-functions",
+  "version": "1.0.0",
+  "description": "A library of typescript interfaces that extend existing firebase functions classes, adding type safety and a better autocomplete experience.",
+  "keywords": [
+    "typescript",
+    "firebase",
+    "firebase functions",
+    "firebase firestore"
+  ],
+  "main": "build/index.js",
+  "repository": "https://github.com/ya-s-u/typesafe-functions.git",
+  "author": "Yasuaki Goto <yasu1003@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@google-cloud/firestore": "^4.8.0",
+    "firebase-admin": "^9.4.2",
+    "firebase-functions": "^3.13.0",
+    "typesafe-node-firestore": "^1.4.0",
+    "typescript": "^4.1.2"
+  }
+}
